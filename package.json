@@ -1,0 +1,21 @@
+{
+  "name": "advanced_node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Nicooletahehe/advanced_node.git",
+  "author": "Nicoleta Ungureanu <nicoleta7u@yahoo.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "joi-password-complexity": "^5.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.14",
+    "router": "^1.3.5"
+  }
+}
